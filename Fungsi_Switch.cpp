@@ -42,12 +42,35 @@ int main()
         cout << "4. Pembagian"         << endl; 
         cout << "5. Keluar"            << endl;
         cout << "---------------------"<< endl;
-        cout << "Masukkan menu pilhan :"
+        cout << "Masukkan menu pilhan :";
         cin >> pilihan;
 
 
 
-    }     
+    }  while (pilihan !=5);
+
+    switch (pilihan)
+    {
+        case 1: 
+            inputData();
+            cout << "Hasil Penjumlahan =" << penjumlahan(bilangan1, bilangan2) << endl;
+        break;
+        
+    
+    default:
+        break;
+    }
 
 
+
+
+
+
+
+
+
+
+
+       
 }
+
