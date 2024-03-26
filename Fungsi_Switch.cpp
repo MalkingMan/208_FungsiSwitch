@@ -63,7 +63,10 @@ int main()
             inputData();
             cout << "Hasil perkaliam =" << perkalian(bilangan1, bilangan2) << endl;
         break;
-        
+        case 4: 
+            inputData();
+            cout << "Hasil pembagian =" << pembagian(bilangan1, bilangan2) << endl;
+        break;
     
     default:
         break;
