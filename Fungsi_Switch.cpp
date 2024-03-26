@@ -54,22 +54,25 @@ int main()
         case 1: 
             inputData();
             cout << "Hasil Penjumlahan =" << penjumlahan(bilangan1, bilangan2) << endl;
-        break;
+            break;
         case 2: 
             inputData();
             cout << "Hasil pengurangan =" << pengurangan(bilangan1, bilangan2) << endl;
-        break;
+            break;
         case 3: 
             inputData();
             cout << "Hasil perkaliam =" << perkalian(bilangan1, bilangan2) << endl;
-        break;
+            break;
         case 4: 
             inputData();
             cout << "Hasil pembagian =" << pembagian(bilangan1, bilangan2) << endl;
-        break;
+            break;
+        case 5:
+            break;
     
-    default:
-        break;
+        default:
+            cout << "Pilihan Tidak Ada" << endl;
+            break;
     }
 
 
