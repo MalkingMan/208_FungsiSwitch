@@ -55,6 +55,10 @@ int main()
             inputData();
             cout << "Hasil Penjumlahan =" << penjumlahan(bilangan1, bilangan2) << endl;
         break;
+        case 2: 
+            inputData();
+            cout << "Hasil pengurangan =" << pengurangan(bilangan1, bilangan2) << endl;
+        break;
         
     
     default:
